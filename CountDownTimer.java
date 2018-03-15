@@ -1,8 +1,4 @@
-package util;
-
 import java.util.concurrent.CopyOnWriteArrayList;
-
-import model.Horse;
 
 public class CountDownTimer implements Runnable {
 

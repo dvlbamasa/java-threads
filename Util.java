@@ -1,10 +1,6 @@
-package util;
-
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.List;
 import java.util.stream.Collectors; 
-
-import model.Horse;
 
 public class Util {
 

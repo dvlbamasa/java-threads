@@ -1,14 +1,9 @@
-package service;
-
 import java.util.Scanner;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ExecutorService;  
 import java.util.concurrent.Executors;
 import java.util.List;
-
-import util.Util;
-import util.CountDownTimer;
 
 public class HorseRaceApp {
 	
