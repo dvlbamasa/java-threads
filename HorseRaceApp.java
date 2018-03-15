@@ -69,9 +69,8 @@ public class HorseRaceApp {
 	}
 
 	public void setComponents() {
-		cyclicBarrier = new CyclicBarrier(horseCount, new CountDownTimer(horseList));
 		for (int horse = 1; horse <= horseCount; horse++) {
-			horseList.add(new Horse("Horse" + horse, false, cyclicBarrier, 0, false));
+			horseList.add(new Horse("Horse" + horse, false, null, 0, false));
 		}
 		horseList.forEach(
 			(horse)->(horse).setHealthy(Util.getRandomBoolean()));
